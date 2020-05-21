@@ -28,10 +28,5 @@ Press 5 to Exit''')
         break
     else:
         print('Enter correct choice ')
-"""i = 1
-num = int(input(print("enter")))
-while i <= 10:
-    print(num, "*", i, "= ", pow(num, i))
-    i += 1"""
 
 
