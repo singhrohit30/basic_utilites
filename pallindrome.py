@@ -1,11 +1,15 @@
-first_num = 0
-second_num = 1
-third_num = 0
-num_range = int(input("Enter the range: "))
-print(first_num)
-print(second_num)
-for x in range(2, num_range):
-    third_num = first_num + second_num
-    print(third_num)
-    first_num = second_num
-    second_num = third_num
+# TAKING INPUT FROM THE USER 'A WORD OR NUMBER'
+
+word_or_number = input("Enter the Word or Number to which is to be checked: ")
+
+# REVERSING THE GIVEN INPUT AND STORING IN A VARIABLE
+ 
+is_pallindrome = word_or_number[::-1]
+
+# CHECKING IF THE REVERSED IS EQUAL TO THE GIVEN INPUT
+
+if is_pallindrome == word_or_number:
+    print('PALLINDROME!')
+
+else:
+    print('NOT PALLINDROME!')
