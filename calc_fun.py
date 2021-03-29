@@ -32,8 +32,7 @@ Press / for Division
 
     print(calc(num1, num2, choice))
 
-    again = input("Press 'Y' to Continue"
-                  "Press 'Q' to Quit").lower()
+    again = input("Press 'Y' to Continue or Press 'Q' to Quit: ").lower()
     if again == 'y':
         continue
     else:
